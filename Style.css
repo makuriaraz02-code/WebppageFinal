@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Inter:wght@300;400;600&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    background-color: #f4f1e9; /* Stoic parchment beige */
+    color: #333;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: #5f6f52; /* muted sage green */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    align-items: center;
+}
+
+.navbar .logo {
+    font-family: "Merriweather", serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.navbar a.active {
+    text-decoration: underline;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #e7d9c3; /* warm stoic sandstone */
+    color: #3a3a3a;
+}
+
+.hero.small {
+    padding: 50px 20px;
+}
+
+/* CONTENT */
+.content {
+    max-width: 900px;
+    margin: auto;
+    padding: 40px 20px;
+    line-height: 1.7;
+}
+
+h1, h2 {
+    font-family: "Merriweather", serif;
+}
+
+.button {
+    background-color: #5f6f52;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 6px;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+}
+
+.button:hover {
+    background-color: #49563f;
+}
+
+/* GAME AREA */
+.game-container {
+    text-align: center;
+}
+
+.choices button {
+    background-color: #c1b49a;
+    border: none;
+    padding: 15px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 6px;
+    width: 80%;
+    max-width: 500px;
+    font-weight: 600;
+}
+
+.choices button:hover {
+    background-color: #a89a80;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    background-color: #ded3c1;
+    font-size: 14px;
+}
+
+.stoic{
+    display: block;
+    margin:30px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+#feedback {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #e8f3e8; /* light greenish background */
+    font-size: 1rem;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
